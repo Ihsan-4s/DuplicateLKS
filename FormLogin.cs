@@ -22,6 +22,7 @@ namespace DuplicateLKS
             InitializeComponent();
         }
 
+
         private void LogActivity(int UserId, string Activity)
         {
             using (SqlConnection con = new SqlConnection("Data Source=LENOVO\\SQLEXPRESS;Initial Catalog=db_lksdesktop;Integrated Security=True;TrustServerCertificate=True"))

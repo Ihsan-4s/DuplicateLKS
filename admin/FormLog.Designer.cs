@@ -32,241 +32,228 @@ namespace DuplicateLKS.admin
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            txtDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            txtHour = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            dateFrom = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            dateUntil = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            btnFilter = new Guna.UI2.WinForms.Guna2Button();
-            tableLog = new Guna.UI2.WinForms.Guna2DataGridView();
-            timer1 = new System.Windows.Forms.Timer(components);
-            ((System.ComponentModel.ISupportInitialize)tableLog).BeginInit();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtHour = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.dateFrom = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.dateUntil = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnFilter = new Guna.UI2.WinForms.Guna2Button();
+            this.tableLog = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.tableLog)).BeginInit();
+            this.SuspendLayout();
             // 
             // guna2HtmlLabel3
             // 
-            guna2HtmlLabel3.BackColor = Color.Transparent;
-            guna2HtmlLabel3.Font = new Font("Microsoft Tai Le", 20F);
-            guna2HtmlLabel3.ForeColor = Color.DarkGray;
-            guna2HtmlLabel3.Location = new Point(12, 12);
-            guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(228, 36);
-            guna2HtmlLabel3.TabIndex = 2;
-            guna2HtmlLabel3.Text = "Pages / Dashboard";
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Tai Le", 20F);
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DarkGray;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(10, 10);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(228, 36);
+            this.guna2HtmlLabel3.TabIndex = 2;
+            this.guna2HtmlLabel3.Text = "Pages / Dashboard";
             // 
             // guna2HtmlLabel2
             // 
-            guna2HtmlLabel2.BackColor = Color.Transparent;
-            guna2HtmlLabel2.Font = new Font("Microsoft Tai Le", 50F, FontStyle.Bold);
-            guna2HtmlLabel2.ForeColor = Color.Black;
-            guna2HtmlLabel2.Location = new Point(10, 37);
-            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(378, 87);
-            guna2HtmlLabel2.TabIndex = 3;
-            guna2HtmlLabel2.Text = "Log Activity";
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Tai Le", 50F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(9, 32);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(378, 87);
+            this.guna2HtmlLabel2.TabIndex = 3;
+            this.guna2HtmlLabel2.Text = "Log Activity";
             // 
             // txtDate
             // 
-            txtDate.BackColor = Color.Transparent;
-            txtDate.Font = new Font("Microsoft Tai Le", 20F);
-            txtDate.ForeColor = Color.Black;
-            txtDate.Location = new Point(1230, 12);
-            txtDate.Name = "txtDate";
-            txtDate.Size = new Size(161, 36);
-            txtDate.TabIndex = 2;
-            txtDate.Text = "Hari, Tanggal";
+            this.txtDate.BackColor = System.Drawing.Color.Transparent;
+            this.txtDate.Font = new System.Drawing.Font("Microsoft Tai Le", 20F);
+            this.txtDate.ForeColor = System.Drawing.Color.Black;
+            this.txtDate.Location = new System.Drawing.Point(1054, 10);
+            this.txtDate.Name = "txtDate";
+            this.txtDate.Size = new System.Drawing.Size(161, 36);
+            this.txtDate.TabIndex = 2;
+            this.txtDate.Text = "Hari, Tanggal";
             // 
             // txtHour
             // 
-            txtHour.BackColor = Color.Transparent;
-            txtHour.Font = new Font("Microsoft Tai Le", 20F);
-            txtHour.ForeColor = Color.Black;
-            txtHour.Location = new Point(1353, 54);
-            txtHour.Name = "txtHour";
-            txtHour.Size = new Size(50, 36);
-            txtHour.TabIndex = 2;
-            txtHour.Text = "Jam";
+            this.txtHour.BackColor = System.Drawing.Color.Transparent;
+            this.txtHour.Font = new System.Drawing.Font("Microsoft Tai Le", 20F);
+            this.txtHour.ForeColor = System.Drawing.Color.Black;
+            this.txtHour.Location = new System.Drawing.Point(1160, 47);
+            this.txtHour.Name = "txtHour";
+            this.txtHour.Size = new System.Drawing.Size(50, 36);
+            this.txtHour.TabIndex = 2;
+            this.txtHour.Text = "Jam";
             // 
             // dateFrom
             // 
-            dateFrom.BorderRadius = 16;
-            dateFrom.Checked = true;
-            dateFrom.CustomizableEdges = customizableEdges1;
-            dateFrom.FillColor = Color.White;
-            dateFrom.Font = new Font("Microsoft Sans Serif", 12F);
-            dateFrom.ForeColor = Color.Black;
-            dateFrom.Format = DateTimePickerFormat.Long;
-            dateFrom.Location = new Point(12, 184);
-            dateFrom.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            dateFrom.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            dateFrom.Name = "dateFrom";
-            dateFrom.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            dateFrom.Size = new Size(350, 59);
-            dateFrom.TabIndex = 4;
-            dateFrom.Value = new DateTime(2025, 6, 11, 8, 33, 13, 658);
+            this.dateFrom.BorderRadius = 16;
+            this.dateFrom.Checked = true;
+            this.dateFrom.FillColor = System.Drawing.Color.White;
+            this.dateFrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dateFrom.ForeColor = System.Drawing.Color.Black;
+            this.dateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dateFrom.Location = new System.Drawing.Point(10, 159);
+            this.dateFrom.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dateFrom.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dateFrom.Name = "dateFrom";
+            this.dateFrom.Size = new System.Drawing.Size(300, 51);
+            this.dateFrom.TabIndex = 4;
+            this.dateFrom.Value = new System.DateTime(2025, 6, 11, 8, 33, 13, 658);
             // 
             // guna2HtmlLabel5
             // 
-            guna2HtmlLabel5.BackColor = Color.Transparent;
-            guna2HtmlLabel5.Font = new Font("Microsoft Tai Le", 18F);
-            guna2HtmlLabel5.ForeColor = Color.Black;
-            guna2HtmlLabel5.Location = new Point(12, 146);
-            guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(138, 32);
-            guna2HtmlLabel5.TabIndex = 5;
-            guna2HtmlLabel5.Text = "Dari Tanggal";
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(10, 127);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(138, 32);
+            this.guna2HtmlLabel5.TabIndex = 5;
+            this.guna2HtmlLabel5.Text = "Dari Tanggal";
             // 
             // dateUntil
             // 
-            dateUntil.BorderRadius = 16;
-            dateUntil.Checked = true;
-            dateUntil.CustomizableEdges = customizableEdges3;
-            dateUntil.FillColor = Color.White;
-            dateUntil.Font = new Font("Microsoft Sans Serif", 12F);
-            dateUntil.ForeColor = Color.Black;
-            dateUntil.Format = DateTimePickerFormat.Long;
-            dateUntil.Location = new Point(383, 184);
-            dateUntil.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            dateUntil.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            dateUntil.Name = "dateUntil";
-            dateUntil.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            dateUntil.Size = new Size(350, 59);
-            dateUntil.TabIndex = 4;
-            dateUntil.Value = new DateTime(2025, 6, 11, 8, 33, 13, 658);
+            this.dateUntil.BorderRadius = 16;
+            this.dateUntil.Checked = true;
+            this.dateUntil.FillColor = System.Drawing.Color.White;
+            this.dateUntil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dateUntil.ForeColor = System.Drawing.Color.Black;
+            this.dateUntil.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dateUntil.Location = new System.Drawing.Point(328, 159);
+            this.dateUntil.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dateUntil.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dateUntil.Name = "dateUntil";
+            this.dateUntil.Size = new System.Drawing.Size(300, 51);
+            this.dateUntil.TabIndex = 4;
+            this.dateUntil.Value = new System.DateTime(2025, 6, 11, 8, 33, 13, 658);
             // 
             // guna2HtmlLabel6
             // 
-            guna2HtmlLabel6.BackColor = Color.Transparent;
-            guna2HtmlLabel6.Font = new Font("Microsoft Tai Le", 18F);
-            guna2HtmlLabel6.ForeColor = Color.Black;
-            guna2HtmlLabel6.Location = new Point(383, 146);
-            guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(173, 32);
-            guna2HtmlLabel6.TabIndex = 5;
-            guna2HtmlLabel6.Text = "Sampai Tanggal";
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(328, 127);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(173, 32);
+            this.guna2HtmlLabel6.TabIndex = 5;
+            this.guna2HtmlLabel6.Text = "Sampai Tanggal";
             // 
             // btnFilter
             // 
-            btnFilter.BorderRadius = 16;
-            btnFilter.CustomizableEdges = customizableEdges5;
-            btnFilter.DisabledState.BorderColor = Color.DarkGray;
-            btnFilter.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnFilter.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnFilter.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnFilter.Font = new Font("Microsoft Sans Serif", 16F);
-            btnFilter.ForeColor = Color.White;
-            btnFilter.Location = new Point(748, 184);
-            btnFilter.Name = "btnFilter";
-            btnFilter.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnFilter.Size = new Size(233, 59);
-            btnFilter.TabIndex = 6;
-            btnFilter.Text = "Filter";
-            btnFilter.Click += btnFilter_Click;
+            this.btnFilter.BorderRadius = 16;
+            this.btnFilter.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnFilter.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnFilter.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFilter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btnFilter.ForeColor = System.Drawing.Color.White;
+            this.btnFilter.Location = new System.Drawing.Point(641, 159);
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.Size = new System.Drawing.Size(200, 51);
+            this.btnFilter.TabIndex = 6;
+            this.btnFilter.Text = "Filter";
             // 
             // tableLog
             // 
-            tableLog.AllowUserToAddRows = false;
-            tableLog.AllowUserToDeleteRows = false;
-            tableLog.AllowUserToResizeColumns = false;
-            tableLog.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = Color.White;
-            tableLog.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            tableLog.BackgroundColor = Color.WhiteSmoke;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(232, 234, 237);
-            dataGridViewCellStyle2.Font = new Font("Microsoft Tai Le", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            tableLog.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            tableLog.ColumnHeadersHeight = 35;
-            tableLog.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.White;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(239, 241, 243);
-            dataGridViewCellStyle3.SelectionForeColor = Color.Black;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            tableLog.DefaultCellStyle = dataGridViewCellStyle3;
-            tableLog.GridColor = Color.FromArgb(239, 241, 243);
-            tableLog.Location = new Point(12, 267);
-            tableLog.MultiSelect = false;
-            tableLog.Name = "tableLog";
-            tableLog.ReadOnly = true;
-            tableLog.RowHeadersVisible = false;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.Font = new Font("Microsoft Tai Le", 12F);
-            tableLog.RowsDefaultCellStyle = dataGridViewCellStyle4;
-            tableLog.Size = new Size(1447, 765);
-            tableLog.TabIndex = 7;
-            tableLog.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.LightGrid;
-            tableLog.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            tableLog.ThemeStyle.AlternatingRowsStyle.Font = null;
-            tableLog.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            tableLog.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            tableLog.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            tableLog.ThemeStyle.BackColor = Color.WhiteSmoke;
-            tableLog.ThemeStyle.GridColor = Color.FromArgb(239, 241, 243);
-            tableLog.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(232, 234, 237);
-            tableLog.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            tableLog.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            tableLog.ThemeStyle.HeaderStyle.ForeColor = Color.Black;
-            tableLog.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            tableLog.ThemeStyle.HeaderStyle.Height = 35;
-            tableLog.ThemeStyle.ReadOnly = true;
-            tableLog.ThemeStyle.RowsStyle.BackColor = Color.White;
-            tableLog.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            tableLog.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            tableLog.ThemeStyle.RowsStyle.ForeColor = Color.Black;
-            tableLog.ThemeStyle.RowsStyle.Height = 25;
-            tableLog.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(239, 241, 243);
-            tableLog.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black;
+            this.tableLog.AllowUserToAddRows = false;
+            this.tableLog.AllowUserToDeleteRows = false;
+            this.tableLog.AllowUserToResizeColumns = false;
+            this.tableLog.AllowUserToResizeRows = false;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            this.tableLog.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.tableLog.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.tableLog.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.tableLog.ColumnHeadersHeight = 35;
+            this.tableLog.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.tableLog.DefaultCellStyle = dataGridViewCellStyle7;
+            this.tableLog.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.tableLog.Location = new System.Drawing.Point(10, 231);
+            this.tableLog.MultiSelect = false;
+            this.tableLog.Name = "tableLog";
+            this.tableLog.ReadOnly = true;
+            this.tableLog.RowHeadersVisible = false;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Tai Le", 12F);
+            this.tableLog.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            this.tableLog.RowTemplate.Height = 25;
+            this.tableLog.Size = new System.Drawing.Size(1240, 663);
+            this.tableLog.TabIndex = 7;
+            this.tableLog.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.LightGrid;
+            this.tableLog.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.tableLog.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.tableLog.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.tableLog.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.tableLog.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.tableLog.ThemeStyle.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tableLog.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.tableLog.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            this.tableLog.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.tableLog.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tableLog.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.Black;
+            this.tableLog.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.tableLog.ThemeStyle.HeaderStyle.Height = 35;
+            this.tableLog.ThemeStyle.ReadOnly = true;
+            this.tableLog.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.tableLog.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.tableLog.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tableLog.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.tableLog.ThemeStyle.RowsStyle.Height = 25;
+            this.tableLog.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.tableLog.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             // 
             // timer1
             // 
-            timer1.Enabled = true;
-            timer1.Interval = 1000;
-            timer1.Tick += timer1_Tick;
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
             // 
             // FormLog
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
-            ClientSize = new Size(1471, 1080);
-            Controls.Add(tableLog);
-            Controls.Add(btnFilter);
-            Controls.Add(guna2HtmlLabel6);
-            Controls.Add(guna2HtmlLabel5);
-            Controls.Add(dateUntil);
-            Controls.Add(dateFrom);
-            Controls.Add(txtHour);
-            Controls.Add(txtDate);
-            Controls.Add(guna2HtmlLabel3);
-            Controls.Add(guna2HtmlLabel2);
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "FormLog";
-            Text = "FormLog";
-            Load += FormLog_Load;
-            ((System.ComponentModel.ISupportInitialize)tableLog).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1218, 936);
+            this.Controls.Add(this.tableLog);
+            this.Controls.Add(this.btnFilter);
+            this.Controls.Add(this.guna2HtmlLabel6);
+            this.Controls.Add(this.guna2HtmlLabel5);
+            this.Controls.Add(this.dateUntil);
+            this.Controls.Add(this.dateFrom);
+            this.Controls.Add(this.txtHour);
+            this.Controls.Add(this.txtDate);
+            this.Controls.Add(this.guna2HtmlLabel3);
+            this.Controls.Add(this.guna2HtmlLabel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FormLog";
+            this.Text = "FormLog";
+            ((System.ComponentModel.ISupportInitialize)(this.tableLog)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

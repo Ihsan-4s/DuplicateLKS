@@ -50,7 +50,7 @@ namespace DuplicateLKS.admin
             loadForm(new FormLog());
         }
 
-        private void btnLogout_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Apa Kamu Yakin Akan Logout?", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
@@ -63,19 +63,19 @@ namespace DuplicateLKS.admin
             }
         }
 
-        private void btnLog_Click(object sender, EventArgs e)
+        private void btnUser_Click_1(object sender, EventArgs e)
+        {
+            loadForm(new FormUser());
+        }
+
+        private void btnLog_Click_1(object sender, EventArgs e)
         {
             loadForm(new FormLog());
         }
 
-        private void btnReport_Click(object sender, EventArgs e)
+        private void btnReport_Click_1(object sender, EventArgs e)
         {
             loadForm(new FormReport());
-        }
-
-        private void btnUser_Click(object sender, EventArgs e)
-        {
-            loadForm(new FormUser());
         }
     }
 }

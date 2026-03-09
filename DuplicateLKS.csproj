@@ -87,6 +87,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="admin\FormLog.resx">
+      <DependentUpon>FormLog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="admin\FormReport.resx">
       <DependentUpon>FormReport.cs</DependentUpon>
     </EmbeddedResource>
